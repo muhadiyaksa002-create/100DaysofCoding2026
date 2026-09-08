@@ -2,7 +2,7 @@ public class Days07 {
     public static void main(String[] args) {
 
         // String tipe data non primitif yang menyimpan kumpulan karakter 
-        // String juga harus di apit olet tanda kutip 2 ""
+        // String juga harus di apit oleh tanda kutip 2 ""
         // String sendiri harus di input menggunakan huruf kapital di awalnya
 
         String nama = "Muh.Adiyaksa";
