@@ -49,5 +49,7 @@ public class Days026 {
 
         System.out.println(f);
         System.out.println(b);
+
+        in.close();
     }
 }
