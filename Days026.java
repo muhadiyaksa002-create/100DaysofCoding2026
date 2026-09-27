@@ -47,7 +47,7 @@ public class Days026 {
         b=f-b;
         f=f-b;
 
-        System.out.println(a);
+        System.out.println(f);
         System.out.println(b);
     }
 }
