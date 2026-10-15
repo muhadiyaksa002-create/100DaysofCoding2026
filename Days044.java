@@ -9,13 +9,13 @@ public class Days044 {
 
         if (N <0 || N >100) {
             System.out.println("Nilai Tidak Valid ");
-        }else if (N >90) {
+        }else if (N >=90) {
             System.out.println("Predikat Nilai: A ");
-        }else if (N >80) {
+        }else if (N >=80) {
             System.out.println("Predikat Nilai: B ");
-        }else if (N >70) {
+        }else if (N >=70) {
             System.out.println("Predikat Nilai: C ");
-        }else if (N >60) {
+        }else if (N >=60) {
             System.out.println("Predikat Nilai: D ");
         }else {
             System.out.println("Predikat Nilai: E ");
