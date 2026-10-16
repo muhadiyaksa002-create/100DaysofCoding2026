@@ -3,12 +3,7 @@ import java.util.Scanner;
 public class Days045 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
-        System.out.println("=== MENU PERPUSTAKAAN ===");
-        System.out.println("1. Pinjam Buku");
-        System.out.println("2. Kembalikan Buku");
-        System.out.println("3. Keluar");
-
+        
         System.out.print("Pilih menu :");
         int M = in.nextInt();
 
