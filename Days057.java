@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Days057 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        int N = in.nextInt();
+
+        for (int i = 1; i <=N; i++) 
+            if (i %2 != 0){
+                System.out.print(i);
+            }
+            System.out.println("");
+        for (int i = 1; i <=N; i++) {
+                if (i %2 == 0){
+                System.out.print(i);
+            }
+        }
+        in.close();
+    }
+}
