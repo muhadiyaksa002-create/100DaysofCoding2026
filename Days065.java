@@ -7,7 +7,7 @@ public class Days065 {
         int N = in.nextInt();
 
         for (int i = 0; i <=N; i++) {
-            System.out.print('*');
+            System.out.println('*');
         }
     in.close();
     }
