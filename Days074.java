@@ -5,13 +5,13 @@ public class Days074{
         Scanner in = new Scanner(System.in);
 
         System.out.print("Masukkan nama lengkap\t:");
-        String a = in.next();
+        String a = in.nextLine();
         System.out.print("Konfirmasi nama lengkap\t:");
-        String b = in.next();
+        String b = in.nextLine();
         System.out.print("Masukkan program studi\t:");
-        String c = in.next();
+        String c = in.nextLine();
         System.out.print("Masukkan alamat email\t:");
-        String d = in.next();
+        String d = in.nextLine();
         System.out.println();
 
         System.out.println("Nama lengkap kosong\t:" + a.isEmpty());
